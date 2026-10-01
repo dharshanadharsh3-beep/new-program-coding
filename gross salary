@@ -1,0 +1,8 @@
+basic_salary = float(input("Enter the Basic Salary: "))
+da = basic_salary * 0.40
+hra = basic_salary * 0.20
+gross_salary = basic_salary + da + hra
+print("Basic Salary:", basic_salary)
+print("Dearness Allowance (DA):", da)
+print("House Rent Allowance (HRA):", hra)
+print("Gross Salary:", gross_salary)
